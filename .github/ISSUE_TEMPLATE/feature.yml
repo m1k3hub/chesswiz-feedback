@@ -1,0 +1,11 @@
+name: Feature request
+description: An idea that would make Chesswiz better
+labels: [enhancement]
+body:
+  - type: textarea
+    id: want
+    attributes: {label: What would you like to do?}
+    validations: {required: true}
+  - type: textarea
+    id: why
+    attributes: {label: Why, and how do you do it today?}
